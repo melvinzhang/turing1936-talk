@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70005" creator="Ipe 7.1.4">
-<info created="D:20110714171756" modified="D:20150720100058"/>
+<info created="D:20110714171756" modified="D:20150720103220"/>
 <bitmap id="1" width="297" height="400" length="101563" ColorSpace="DeviceGray" Filter="FlateDecode" BitsPerComponent="8" encoding="base64">
 eNpkvAVbW9vaBfp7vu87e++2OCTE3d09JEQJSUiCu7u7u7S4t0CFuru7QSktWtm7m/su9jnn
 uc+962mTEFZkjTne8Y4x51ocvK/MC7iseqVCLpMrlCq5ymBzJ3hcTrNGJpGIRWyeQCSVKxQK
@@ -22326,8 +22326,17 @@ Consistent, Complete, and Decidable?
 </page>
 <page>
 <layer name="alpha"/>
+<layer name="beta"/>
+<layer name="gamma"/>
+<layer name="delta"/>
 <view layers="alpha" active="alpha"/>
+<view layers="alpha beta" active="beta"/>
+<view layers="alpha beta gamma" active="gamma"/>
+<view layers="alpha beta gamma delta" active="delta"/>
 <text layer="alpha" matrix="1 0 0 1 0 -215.53" pin="h" transformations="translations" pos="0 536" stroke="black" type="minipage" width="736" height="28.4032" depth="14.448" valign="top" size="huge" style="center">The Church-Turing Thesis</text>
+<text layer="beta" matrix="1 0 0 1 0 1" pin="h" transformations="translations" pos="0 245.619" stroke="black" type="minipage" width="736" height="19.3928" depth="5.404" valign="top" style="center">An appeal to intuition</text>
+<text layer="gamma" matrix="1 0 0 1 0 -48" pin="h" transformations="translations" pos="0 245.619" stroke="black" type="minipage" width="736" height="16.6824" depth="2.688" valign="top" style="center">There is a machine to enumerate all theorems</text>
+<text layer="delta" matrix="1 0 0 1 0 -96" pin="h" transformations="translations" pos="0 245.619" stroke="black" type="minipage" width="736" height="19.3928" depth="5.404" valign="top" style="center">Large classes of numbers are computable, eg. $\pi$, $e$</text>
 </page>
 <page>
 <layer name="alpha"/>
